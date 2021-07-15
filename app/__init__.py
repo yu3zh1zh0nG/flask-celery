@@ -34,7 +34,6 @@ def create_app():
     return flask_app
 
 
-flask_app = create_app()
 
 
 @flask_app.route('/')
